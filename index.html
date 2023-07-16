@@ -4,14 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TV Show Search</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 </head>
 <body>
-  <h1>TV Show Search</h1>
-  <form id="searchForm">
-    <input type="text" placeholder="TV Show Title" name="query">
-    <button>Search</button>
-  </form>
+  <div class="heading">
+    <h1 id="title">TV Show Search</h1>
+  </div>
+  <div class="form">
+    <form id="searchForm">
+      <input class="input" type="text" placeholder="TV Show Title" name="query">
+      <button class="btn">Search</button>
+    </form>
+  </div>
   <script src="app.js"></script>
 </body>
 </html>
